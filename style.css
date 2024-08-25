@@ -1,0 +1,117 @@
+/* General reset */
+body * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header and Navigation */
+.header-container {
+    position: relative; 
+    height: 50px; 
+}
+
+.logo {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.nav {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.nav a {
+    margin-left: 30px; 
+    text-decoration: underline;
+    color: #000;
+    display: inline-block; 
+}
+
+.nav a:hover {
+    color: #12A210; 
+}
+
+/* Content Container */
+.content-container {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 20px; 
+    max-width: 1200px; 
+    padding: 20px; 
+    margin: 0 auto; 
+}
+
+.content-image {
+    width: 50%;
+    height: auto; 
+    border-radius: 10px; 
+}
+
+.content-text {
+    padding-top: 100px;
+    width: 50%; 
+    text-align: left;
+}
+
+.content-text h1 {
+    font-size: 3rem; 
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.content-text p {
+    font-size: 1.5rem; 
+    font-weight: 500;
+    color: #000000; 
+    line-height: 1.5; 
+}
+
+/* Start Button */
+.start-button {
+    display: inline-block; 
+    padding: 10px 30px; 
+    margin-top: 50px; 
+    background-color: #12A210; 
+    color: #ffffff; 
+    font-size: 1.5rem; 
+    font-weight: 500; 
+    text-decoration: none; 
+    border-radius: 25px; 
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.start-button:hover {
+    background-color: #0F7C08; 
+}
+
