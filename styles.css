@@ -96,7 +96,6 @@ body {
     line-height: 1.5; 
 }
 
-/* Start Button */
 .start-button {
     display: inline-block; 
     padding: 10px 30px; 
@@ -115,3 +114,70 @@ body {
     background-color: #0F7C08; 
 }
 
+.ans-options {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ans-option {
+    padding: 10px;
+    border: 3px solid #9F0C0C;
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #fff7c3;
+    transition: background-color 0.3s;
+}
+
+.ans-option:hover {
+    background-color: #E8CF3B;
+}
+
+.selected {
+    background-color: #E8CF3B;
+}
+
+.next-button {
+    display: inline-block; 
+    padding: 10px 30px; 
+    margin-top: 50px; 
+    background-color: #12A210; 
+    color: #ffffff; 
+    font-size: 1.5rem; 
+    font-weight: 500; 
+    text-decoration: none; 
+    border-radius: 25px; 
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.submit-button:hover {
+    background-color: #0F7C08; 
+}
+
+.submit-button {
+    display: inline-block; 
+    padding: 10px 30px; 
+    margin-top: 50px; 
+    background-color: #12A210; 
+    color: #ffffff; 
+    font-size: 1.5rem; 
+    font-weight: 500; 
+    text-decoration: none; 
+    border-radius: 25px; 
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.next-button:hover {
+    background-color: #0F7C08; 
+}
+
+@media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+}
