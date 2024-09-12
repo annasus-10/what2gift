@@ -11,10 +11,12 @@
   </head>
   <body style="background-image: url('images/Background.png'); background-size: cover; background-position: center; background-repeat: repeat; height: 100vh;">
     <div class="header-container">
+      <a href="index.html">
         <div class="logo">
             <img src="images/Logo.png" alt="What2Gift Logo">
             <span>What2Gift</span>
-        </div>  
+        </div> 
+      </a> 
     </div>
     <div class="question">
         <h1>What is the age range?</h1>
@@ -24,9 +26,13 @@
             <div class="ans-option" data-value="20 - 25">20 - 25</div>
             <div class="ans-option" data-value="25 - 30">25 - 30</div>
             <div class="ans-option" data-value="30 - 40">30 - 40</div>
-            <div class="ans-option" data-value="40 +">40 +</div>
+            <div class="ans-option" data-value="40+">40+</div>
         </div>
-        <a id="next-button" href="gender.html" class="next-button">Next</a>
+        <div class="button-container">
+          <a id="back-button" href="index.html" class="back-button">Back</a>
+          <a id="next-button" href="gender.html" class="next-button">Next</a>
+          <a id="done-button" href="review.html" class="done-button" style="display: none;">Done</a>
+        </div>
     </div>
     <script src="script.js"></script>
   </body>

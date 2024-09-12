@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>What2Gift Login and Sign up Form</title>
+    <style>
+        body {
+            background-image: url('images/Background.png');
+            background-size: cover;
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background-color: rgba(255, 247, 195, 0.5);
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .form-title {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .input-field {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+
+        .button {
+            width: 100px;
+            padding: 10px;
+            background-color: #12A210;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #0F7C08;
+        }
+
+        .error-message {
+            color: red;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .success-message {
+            color: green;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .tab {
+            display: none;
+        }
+
+        .tab.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Error message area -->
+        <div id="error-message" class="error-message" style="display: none;"></div>
+        <div id="success-message" class="success-message" style="display: none;"></div>
+
+        <div id="login" class="tab active">
+            <h2 class="form-title">Welcome to What2Gift</h2>
+            <form id="login-form" method="post" action="login.php">
+                <input type="text" id="login-username" name="username" class="input-field" placeholder="Username" required>
+                <input type="password" id="login-password" name="password" class="input-field" placeholder="Password" required>
+                <button class="button" type="submit">Login</button>
+                <p>Don't have an account? <a href="#" onclick="openTab('signup')">Sign up</a></p>
+            </form>
+        </div>
+
+        <div id="signup" class="tab">
+            <h2 class="form-title">What2Gift Sign up Form</h2>
+            <form id="signup-form" method="post" action="signup.php">
+                <input type="text" id="signup-username" name="username" class="input-field" placeholder="Username" required>
+                <input type="email" id="signup-email" name="email" class="input-field" placeholder="Email" required>
+                <input type="password" id="signup-password" name="password" class="input-field" placeholder="Password" required>
+                <input type="password" id="confirm-password" name="confirm_password" class="input-field" placeholder="Confirm Password" required>
+                <button class="button" type="submit">Sign up</button>
+                <p>Already have an account? <a href="#" onclick="openTab('login')">Login</a></p>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // Function to switch between login and signup tabs
+        function openTab(tabName) {
+            var tabs = document.querySelectorAll('.tab');
+            tabs.forEach(tab => {
+                tab.classList.remove('active');
+            });
+            document.getElementById(tabName).classList.add('active');
+        }
+
+        // Function to display error messages based on URL parameters
+        function displayErrorMessage() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const loginError = urlParams.get('error');
+            const signupError = urlParams.get('signup_error');
+            const signupSuccess = urlParams.get('signup_success');
+            const errorMessageDiv = document.getElementById('error-message');
+            const successMessageDiv = document.getElementById('success-message');
+
+            if (loginError === 'invalidusername') {
+                errorMessageDiv.textContent = "Invalid username. Please try again.";
+                errorMessageDiv.style.display = "block";
+            } else if (loginError === 'invalidpassword') {
+                errorMessageDiv.textContent = "Invalid password. Please try again.";
+                errorMessageDiv.style.display = "block";
+            }
+
+            // Handle signup errors
+            if (signupError === 'passwordmismatch') {
+                openTab('signup');
+                errorMessageDiv.textContent = "Passwords do not match. Please try again.";
+                errorMessageDiv.style.display = "block";
+            } else if (signupError === 'usernameexists') {
+                openTab('signup');
+                errorMessageDiv.textContent = "Username already exists. Please choose another.";
+                errorMessageDiv.style.display = "block";
+            }
+
+            // Handle signup success
+            if (signupSuccess === 'true') {
+                openTab('login');
+                successMessageDiv.textContent = "Sign up successful! Please log in.";
+                successMessageDiv.style.display = "block";
+            }
+        }
+
+        // Call the function on page load to check for error parameters
+        window.onload = displayErrorMessage;
+    </script>
+</body>
+</html>

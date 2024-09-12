@@ -10,23 +10,56 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body style="background-image: url('images/Background.png'); background-size: cover; background-position: center; background-repeat: repeat; height: 100vh;">
+    <!-- Header Section -->
     <div class="header-container">
-        <div class="logo">
-            <img src="images/Logo.png" alt="What2Gift Logo">
-            <span>What2Gift</span>
-        </div>  
+        <a href="index.html">
+            <div class="logo">
+                <img src="images/Logo.png" alt="What2Gift Logo">
+                <span>What2Gift</span>
+            </div> 
+        </a> 
         <div class="nav">
-            <a href="#">Gift ideas</a>
             <a href="about-us.html">About us</a>
+            <a href="login_page.html" id="login-button">Login</a> <!-- Login button -->
         </div>
     </div>
+
+    <!-- Content Section -->
     <div class="content-container">
+        <!-- Welcome Message -->
+        
+        
         <img src="images/Gift.png" alt="Gift" class="content-image">
-        <div class="content-text">
+        <div class="content-text" style="font-size: 30px;">
+            <div id="welcome-message"></div>
             <h1>What2Gift</h1>
             <p>Find the Perfect Gift in Minutes!</p>
-            <a href="age.html" class="start-button">Start</a>
+            <a href="#" class="start-button" id="start-button">Start</a> <!-- Start button -->
         </div>
     </div>
+
+    <!-- JavaScript Logic -->
+    <script>
+        // Check if user is authenticated and get the username from localStorage
+        const isAuthenticated = localStorage.getItem('userLoggedIn') === 'true';
+        const username = localStorage.getItem('username');
+
+        // Display a welcome message and hide login button if the user is logged in
+        if (isAuthenticated && username) {
+            document.getElementById('login-button').style.display = 'none';
+            const welcomeMessage = document.getElementById('welcome-message');
+            welcomeMessage.textContent = `Welcome, ${username}!`;
+            welcomeMessage.style.display = 'block';
+        }
+
+        // Handle Start button click
+        document.getElementById('start-button').addEventListener('click', function() {
+            if (isAuthenticated) {
+                window.location.href = 'age.html';  // Redirect to age selection if logged in
+            } else {
+                window.location.href = 'login_page.html';  // Otherwise, redirect to login
+            }
+        });
+    </script>
 </body>
 </html>

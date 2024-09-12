@@ -1,0 +1,133 @@
+/* General Page Layout */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header and Navigation */
+.header-container {
+    position: relative; 
+    height: 50px; 
+}
+
+.logo {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.content-container {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+/* Table Styles */
+table {
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid black; /* Outer border of the table */
+    background-color: #fff7c3; /* Solid color for the entire table */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-spacing: 0; /* No space between borders of cells */
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    font-size: 1.2rem;
+    color: #333;
+    border: 1px solid black; /* Inner border for each cell */
+}
+
+th {
+    background-color: #f5dfb1;
+    color: #000000;
+    font-weight: bold;
+}
+
+td {
+    background-color: #fff7c3; /* Solid background color for all rows */
+}
+
+/* Edit Button in Table */
+td a.edit-button {
+    padding: 8px 20px;
+    background-color: #9F0C0C;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+}
+
+td a.edit-button:hover {
+    background-color: #7b0a0a;
+}
+
+/* Button Container Styles */
+.button-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.confirm-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #12A210;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.confirm-button:hover {
+    background-color: #0F7C08;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    th, td {
+        font-size: 1rem;
+    }
+
+    td a.edit-button {
+        font-size: 0.9rem;
+    }
+
+    .confirm-button {
+        font-size: 1.2rem;
+        padding: 10px 20px;
+    }
+}
