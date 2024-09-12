@@ -171,9 +171,10 @@ function handleRelationshipSelection() {
 // Handle Occasion Selection
 function handleOccasionSelection() {
   const selectedAge = localStorage.getItem("selectedAge");
+  const selectedRelationship = localStorage.getItem("selectedRelationship");
   const anniversaryOption = document.getElementById("anniversary-option");
 
-  if (selectedAge === "10 - 15" || selectedAge === "15 - 20") {
+  if (selectedAge === "10 - 15" || selectedAge === "15 - 20" || selectedRelationship === "Family") {
     if (anniversaryOption) {
       anniversaryOption.style.display = "none";
     }
