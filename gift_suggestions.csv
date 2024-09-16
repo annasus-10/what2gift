@@ -1,0 +1,289 @@
+Age,Gender,Relationship,Occasion,Hobbies,Gift
+10 - 15,Male,Family,Birthday,Sports,Bicycle
+10 - 15,Male,Family,Birthday,Music,Earphone
+10 - 15,Male,Family,Birthday,Reading,Graphic Novels
+10 - 15,Male,Family,Birthday,Casual,Sports Watch 
+10 - 15,Male,Family,Graduation,Sports,Customized Sports Gear
+10 - 15,Male,Family,Graduation,Music,Bluetooth Speaker
+10 - 15,Male,Family,Graduation,Reading,Educational Stem Kit
+10 - 15,Male,Family,Graduation,Casual,LEGO set
+10 - 15,Male,Friend,Birthday,Sports,Sports Gear
+10 - 15,Male,Friend,Birthday,Music,Headset
+10 - 15,Male,Friend,Birthday,Reading,Adventure Book
+10 - 15,Male,Friend,Birthday,Casual,Cool Cap
+10 - 15,Male,Friend,Graduation,Sports,Sport shoes
+10 - 15,Male,Friend,Graduation,Music,Mini bluetooth speaker
+10 - 15,Male,Friend,Graduation,Reading,Graphic Cartoons
+10 - 15,Male,Friend,Graduation,Casual,Gift Card
+10 - 15,Female,Family,Birthday,Sports,Sports Equipment
+10 - 15,Female,Family,Birthday,Music,Ukulele
+10 - 15,Female,Family,Birthday,Reading,E-reader
+10 - 15,Female,Family,Birthday,Casual,Jewelry
+10 - 15,Female,Family,Graduation,Sports,Medal Display Rack
+10 - 15,Female,Family,Graduation,Music,Headphone
+10 - 15,Female,Family,Graduation,Reading,Bookstore Gift Card
+10 - 15,Female,Family,Graduation,Casual,Instant Camera
+10 - 15,Female,Friend,Birthday,Sports,Head Band
+10 - 15,Female,Friend,Birthday,Music,Music-Themed Accessories
+10 - 15,Female,Friend,Birthday,Reading,Book Light
+10 - 15,Female,Friend,Birthday,Casual,Friendship Bracelets
+10 - 15,Female,Friend,Graduation,Sports,Fitbit
+10 - 15,Female,Friend,Graduation,Music,Concert Tickets
+10 - 15,Female,Friend,Graduation,Reading,Young Adult Book Set
+10 - 15,Female,Friend,Graduation,Casual,Photo Frame
+15 - 20,Male,Family,Birthday,Sports,Sport Shoes
+15 - 20,Male,Family,Birthday,Music,Bluetooth Speaker
+15 - 20,Male,Family,Birthday,Reading,E-reader
+15 - 20,Male,Family,Birthday,Casual,Gaming Accessories
+15 - 20,Male,Family,Graduation,Sports,Gym Membership
+15 - 20,Male,Family,Graduation,Music,Bluetooth Headphone
+15 - 20,Male,Family,Graduation,Reading,Bookstore Gift Card
+15 - 20,Male,Family,Graduation,Casual,Custom Engraved Watch
+15 - 20,Male,Friend,Birthday,Sports,Sports Cap
+15 - 20,Male,Friend,Birthday,Music,Wireless Earbuds
+15 - 20,Male,Friend,Birthday,Reading,Popular Fiction Book
+15 - 20,Male,Friend,Birthday,Casual,Phone Accessories
+15 - 20,Male,Friend,Graduation,Sports,Personalized Gym Bag
+15 - 20,Male,Friend,Graduation,Music,Portable Speaker
+15 - 20,Male,Friend,Graduation,Reading,Personalized Notebook
+15 - 20,Male,Friend,Graduation,Casual,Gaming Gear
+15 - 20,Female,Family,Birthday,Sports,Fitness Equipment
+15 - 20,Female,Family,Birthday,Music,Concert Tickets
+15 - 20,Female,Family,Birthday,Reading,Personalized Bookmark
+15 - 20,Female,Family,Birthday,Casual,Trendy Backpack
+15 - 20,Female,Family,Graduation,Sports,Yoga Set
+15 - 20,Female,Family,Graduation,Music,Music-Themed Jewelry
+15 - 20,Female,Family,Graduation,Reading,Inspirational Books
+15 - 20,Female,Family,Graduation,Casual,Customized Jewelry
+15 - 20,Female,Friend,Birthday,Sports,Fitness Resistance Bands
+15 - 20,Female,Friend,Birthday,Music,Music-Themed Wall Art
+15 - 20,Female,Friend,Birthday,Reading,Book Subscription Box 
+15 - 20,Female,Friend,Birthday,Casual,Personalized Phone Grip
+15 - 20,Female,Friend,Graduation,Sports,Activewear Set
+15 - 20,Female,Friend,Graduation,Music,Music Lesson Voucher
+15 - 20,Female,Friend,Graduation,Reading,Reading Nook Accessories
+15 - 20,Female,Friend,Graduation,Casual,Customized Puzzle:
+20 - 25,Male,Family,Birthday,Sports,Adventure Experience
+20 - 25,Male,Family,Birthday,Music,Music-Themed Artwork
+20 - 25,Male,Family,Birthday,Reading,Special Edition Book
+20 - 25,Male,Family,Birthday,Casual,Tech Accessories
+20 - 25,Male,Family,Graduation,Sports,Portable Fitness Equipment
+20 - 25,Male,Family,Graduation,Music,Music Memorabilia
+20 - 25,Male,Family,Graduation,Reading,Custom Book Embosser
+20 - 25,Male,Family,Graduation,Casual,Customized Art
+20 - 25,Male,Friend,Birthday,Sports,Personalized Gym Towel
+20 - 25,Male,Friend,Birthday,Music,Music Festival Tickets
+20 - 25,Male,Friend,Birthday,Reading,Personalized Book Ends
+20 - 25,Male,Friend,Birthday,Casual,Stylish Backpack
+20 - 25,Male,Friend,Graduation,Sports,Adventure Gear
+20 - 25,Male,Friend,Graduation,Music,Music Production Equipment
+20 - 25,Male,Friend,Graduation,Reading,Custom Book Set
+20 - 25,Male,Friend,Graduation,Casual,Personalized Keepsake
+20 - 25,Male,Partner,Birthday,Sports,Couples’ Fitness Class
+20 - 25,Male,Partner,Birthday,Music,Music-Themed Date Night
+20 - 25,Male,Partner,Birthday,Reading,Book-Related Gift
+20 - 25,Male,Partner,Birthday,Casual,Memory Scrapbook
+20 - 25,Male,Partner,Graduation,Sports,Memorable Sports Event
+20 - 25,Male,Partner,Graduation,Music,Customized Music Gift
+20 - 25,Male,Partner,Graduation,Reading,Special Edition Book
+20 - 25,Male,Partner,Graduation,Casual,Experience Gift
+20 - 25,Male,Partner,Anniversary,Sports,Active Experience Together
+20 - 25,Male,Partner,Anniversary,Music,Music Memorabilia
+20 - 25,Male,Partner,Anniversary,Reading,Literary Date
+20 - 25,Male,Partner,Anniversary,Casual,Customized Tech Gear
+20 - 25,Female,Family,Birthday,Sports,Personalized Yoga Mat
+20 - 25,Female,Family,Birthday,Music,Custom Music Box
+20 - 25,Female,Family,Birthday,Reading,Book-Themed Puzzle
+20 - 25,Female,Family,Birthday,Casual,Customized Home Décor
+20 - 25,Female,Family,Graduation,Sports,Sports-Themed Art
+20 - 25,Female,Family,Graduation,Music,Music Workshop Experience
+20 - 25,Female,Family,Graduation,Reading,Customized Literary Map
+20 - 25,Female,Family,Graduation,Casual,Stylish Tech Accessory
+20 - 25,Female,Friend,Birthday,Sports,Fitness Tracker
+20 - 25,Female,Friend,Birthday,Music,Music-Themed Subscription
+20 - 25,Female,Friend,Birthday,Reading,Bookish Gift Box
+20 - 25,Female,Friend,Birthday,Casual,Customized Jewelry
+20 - 25,Female,Friend,Graduation,Sports,Custom Adventure Experience
+20 - 25,Female,Friend,Graduation,Music,Music Memorabilia
+20 - 25,Female,Friend,Graduation,Reading,Reading Retreat Package
+20 - 25,Female,Friend,Graduation,Casual,Personalized Memory Box
+20 - 25,Female,Partner,Birthday,Sports,Adventure Day
+20 - 25,Female,Partner,Birthday,Music,Personalized Song
+20 - 25,Female,Partner,Birthday,Reading,Custom Book Collection
+20 - 25,Female,Partner,Birthday,Casual,Personalized Art
+20 - 25,Female,Partner,Graduation,Sports,Fitness Workshop
+20 - 25,Female,Partner,Graduation,Music,Custom Music Experience
+20 - 25,Female,Partner,Graduation,Reading,Customized Reading Nook
+20 - 25,Female,Partner,Graduation,Casual,Travel Voucher
+20 - 25,Female,Partner,Anniversary,Sports,Adventure Date
+20 - 25,Female,Partner,Anniversary,Music,Personalized Music Video
+20 - 25,Female,Partner,Anniversary,Reading,Literary Adventure
+20 - 25,Female,Partner,Anniversary,Casual,Romantic Scrapbook
+25 - 30,Male,Family,Birthday,Sports,Golf accessories
+25 - 30,Male,Family,Birthday,Music,Concert tickets
+25 - 30,Male,Family,Birthday,Reading,E-reader
+25 - 30,Male,Family,Birthday,Casual,Whiskey glass
+25 - 30,Male,Family,Graduation,Sports,Running shoes
+25 - 30,Male,Family,Graduation,Music,Soundbar
+25 - 30,Male,Family,Graduation,Reading,Leather-bound journal
+25 - 30,Male,Family,Graduation,Casual,Classy tie
+25 - 30,Male,Friend,Birthday,Sports,Fitness tracker
+25 - 30,Male,Friend,Birthday,Music,Bluetooth speaker
+25 - 30,Male,Friend,Birthday,Reading,Leather bookmark
+25 - 30,Male,Friend,Birthday,Casual,Minimalist watch
+25 - 30,Male,Friend,Graduation,Sports,Gym membership
+25 - 30,Male,Friend,Graduation,Music,High-quality headphones
+25 - 30,Male,Friend,Graduation,Reading,Book subscription service
+25 - 30,Male,Friend,Graduation,Casual,Travel bag
+25 - 30,Male,Partner,Birthday,Sports,Football Match Tickets 
+25 - 30,Male,Partner,Birthday,Music,Premium headphones
+25 - 30,Male,Partner,Birthday,Reading,Rare edition of  favorite book
+25 - 30,Male,Partner,Birthday,Casual,Fashionable jacket
+25 - 30,Male,Partner,Graduation,Sports,Customized gym gear
+25 - 30,Male,Partner,Graduation,Music,Record collection
+25 - 30,Male,Partner,Graduation,Reading,Stylish desk lamp
+25 - 30,Male,Partner,Graduation,Casual,Engraved pen set
+25 - 30,Male,Partner,Anniversary,Sports,Adventure sports experience
+25 - 30,Male,Partner,Anniversary,Music,Framed lyric print
+25 - 30,Male,Partner,Anniversary,Reading,Novel with love note inside 
+25 - 30,Male,Partner,Anniversary,Casual,Customized bracelet
+25 - 30,Female,Family,Birthday,Sports,Gym outfits
+25 - 30,Female,Family,Birthday,Music,Noise-canceling headphones
+25 - 30,Female,Family,Birthday,Reading,Minimal reading lamp
+25 - 30,Female,Family,Birthday,Casual,A luxury smartwatch
+25 - 30,Female,Family,Graduation,Sports,An advanced sports massage gun
+25 - 30,Female,Family,Graduation,Music,A high-tech turntable with Bluetooth
+25 - 30,Female,Family,Graduation,Reading,Reading stand
+25 - 30,Female,Family,Graduation,Casual,A modern suitcase
+25 - 30,Female,Friend,Birthday,Sports,A smart water bottle
+25 - 30,Female,Friend,Birthday,Music,Smart speakers
+25 - 30,Female,Friend,Birthday,Reading,A digital reading subscription
+25 - 30,Female,Friend,Birthday,Casual,Phone case
+25 - 30,Female,Friend,Graduation,Sports,Smart yoga mat
+25 - 30,Female,Friend,Graduation,Music,Portable record player
+25 - 30,Female,Friend,Graduation,Reading,Portable reading lamp
+25 - 30,Female,Friend,Graduation,Casual,A stylish smartwatch
+25 - 30,Female,Partner,Birthday,Sports,Personal trainer subscription
+25 - 30,Female,Partner,Birthday,Music,Minimal home audio system
+25 - 30,Female,Partner,Birthday,Reading,Literary gift box
+25 - 30,Female,Partner,Birthday,Casual,Smart sunglasses with audio
+25 - 30,Female,Partner,Graduation,Sports,A connected boxing set
+25 - 30,Female,Partner,Graduation,Music,A compact wireless speaker
+25 - 30,Female,Partner,Graduation,Reading,Modern bookshelf
+25 - 30,Female,Partner,Graduation,Casual,A high-tech sleep tracker 
+25 - 30,Female,Partner,Anniversary,Sports,Matching smartwatches
+25 - 30,Female,Partner,Anniversary,Music,A stylish turntable with speakers built-in
+25 - 30,Female,Partner,Anniversary,Reading,Smart bookmark
+25 - 30,Female,Partner,Anniversary,Casual,A modern 3D-printed memory sculpture
+30 - 40,Male,Family,Birthday,Sports,Personalized jersey
+30 - 40,Male,Family,Birthday,Music,A concert ticket for his favorite band
+30 - 40,Male,Family,Birthday,Reading,Personalized reading lamp.
+30 - 40,Male,Family,Birthday,Casual,A custom-made watch
+30 - 40,Male,Family,Graduation,Sports,A sports-themed gift box
+30 - 40,Male,Family,Graduation,Music,Modern guitar
+30 - 40,Male,Family,Graduation,Reading,A custom reading journal
+30 - 40,Male,Family,Graduation,Casual,A portable fire pit
+30 - 40,Male,Friend,Birthday,Sports,Garmin
+30 - 40,Male,Friend,Birthday,Music,A retro-style Bluetooth speaker 
+30 - 40,Male,Friend,Birthday,Reading,A Kindle Paperwhite with an engraved case
+30 - 40,Male,Friend,Birthday,Casual,A leather wallet
+30 - 40,Male,Friend,Graduation,Sports,Resistance band set for home workouts.
+30 - 40,Male,Friend,Graduation,Music,DIY music kit
+30 - 40,Male,Friend,Graduation,Reading,Box set of classic novels
+30 - 40,Male,Friend,Graduation,Casual,A leather-bound planner
+30 - 40,Male,Partner,Birthday,Sports,High-end fitness tracker
+30 - 40,Male,Partner,Birthday,Music,Ticket to a live music show
+30 - 40,Male,Partner,Birthday,Reading,Personalized leather-bound journal
+30 - 40,Male,Partner,Birthday,Casual,A personalized couple’s photo frame
+30 - 40,Male,Partner,Graduation,Sports,High-tech fitness tracker
+30 - 40,Male,Partner,Graduation,Music,A Bluetooth turntable
+30 - 40,Male,Partner,Graduation,Reading,Custom engraved book holder
+30 - 40,Male,Partner,Graduation,Casual,Leather weekender bag
+30 - 40,Male,Partner,Anniversary,Sports,Adventure retreat
+30 - 40,Male,Partner,Anniversary,Music,Private music lesson together
+30 - 40,Male,Partner,Anniversary,Reading,A leather-bound scrapbook
+30 - 40,Male,Partner,Anniversary,Casual,A luxurious dinner
+30 - 40,Female,Family,Birthday,Sports,Performance sneakers
+30 - 40,Female,Family,Birthday,Music,A vintage-style Bluetooth speake
+30 - 40,Female,Family,Birthday,Reading,A family tree book
+30 - 40,Female,Family,Birthday,Casual,Luxury spa gift set
+30 - 40,Female,Family,Graduation,Sports,A yoga class membership
+30 - 40,Female,Family,Graduation,Music,A pair of headphones
+30 - 40,Female,Family,Graduation,Reading,Custom library stamp
+30 - 40,Female,Family,Graduation,Casual,Luxury tea set
+30 - 40,Female,Friend,Birthday,Sports,A fitness tracker
+30 - 40,Female,Friend,Birthday,Music,Portable speaker with LED lights
+30 - 40,Female,Friend,Birthday,Reading,Custom book embosser
+30 - 40,Female,Friend,Birthday,Casual,Luxury candle set
+30 - 40,Female,Friend,Graduation,Sports,Fitness subscription
+30 - 40,Female,Friend,Graduation,Music,Custom playlist framed
+30 - 40,Female,Friend,Graduation,Reading,Stylish book tote
+30 - 40,Female,Friend,Graduation,Casual,Photo book
+30 - 40,Female,Partner,Birthday,Sports,Smart fitness mirror
+30 - 40,Female,Partner,Birthday,Music,Custom music box
+30 - 40,Female,Partner,Birthday,Reading,Romantic personalized book
+30 - 40,Female,Partner,Birthday,Casual,Luxury silk robe
+30 - 40,Female,Partner,Graduation,Sports,Tennis racket
+30 - 40,Female,Partner,Graduation,Music,Vinyl record 
+30 - 40,Female,Partner,Graduation,Reading,Bookcase organizer
+30 - 40,Female,Partner,Graduation,Casual,Jewelry
+30 - 40,Female,Partner,Anniversary,Sports,Adventure trip
+30 - 40,Female,Partner,Anniversary,Music,Framed soundwave
+30 - 40,Female,Partner,Anniversary,Reading,Custom-written love story.
+30 - 40,Female,Partner,Anniversary,Casual,A luxurious candlelit dinner
+40+,Male,Family,Birthday,Sports,Smart bottle
+40+,Male,Family,Birthday,Music,Vintage cassette mixtape
+40+,Male,Family,Birthday,Reading,First edition of a classic book
+40+,Male,Family,Birthday,Casual,Luxury beard grooming kit
+40+,Male,Family,Graduation,Sports,High-tech tennis sensor
+40+,Male,Family,Graduation,Music,High-fidelity record player
+40+,Male,Family,Graduation,Reading,A book nook
+40+,Male,Family,Graduation,Casual,Luxury chess set
+40+,Male,Friend,Birthday,Sports,VR headset
+40+,Male,Friend,Birthday,Music,Hand-crank music box kit
+40+,Male,Friend,Birthday,Reading,A blind date with a book subscription
+40+,Male,Friend,Birthday,Casual,Whiskey stones set
+40+,Male,Friend,Graduation,Sports,A pair of eco-friendly yoga mats
+40+,Male,Friend,Graduation,Music,A desktop music mixing station
+40+,Male,Friend,Graduation,Reading,Leather e-reader
+40+,Male,Friend,Graduation,Casual,Subscription for a gourmet food delivery service
+40+,Male,Partner,Birthday,Sports,Home golf simulator
+40+,Male,Partner,Birthday,Music,Vinyl record clock
+40+,Male,Partner,Birthday,Reading,Curated collection of vintage magazines
+40+,Male,Partner,Birthday,Casual,Aromatherapy kit
+40+,Male,Partner,Graduation,Sports,Personal sport gear
+40+,Male,Partner,Graduation,Music,Ticket for music concert
+40+,Male,Partner,Graduation,Reading,Lamp with modern design
+40+,Male,Partner,Graduation,Casual,Luxury Weekend Getaway
+40+,Male,Partner,Anniversary,Sports,Private hot air balloon ride
+40+,Male,Partner,Anniversary,Music,Soundwave art piece of your favorite song together
+40+,Male,Partner,Anniversary,Reading,Custom photo book filled with shared memories
+40+,Male,Partner,Anniversary,Casual,Romantic wine-tasting experience
+40+,Female,Family,Birthday,Sports,Batminton racket
+40+,Female,Family,Birthday,Music,Personalized playlist keepsake
+40+,Female,Family,Birthday,Reading,Family tree book
+40+,Female,Family,Birthday,Casual,Personal family recipe book
+40+,Female,Family,Graduation,Sports,Boxing class
+40+,Female,Family,Graduation,Music,Bluetooth vinyl turntable
+40+,Female,Family,Graduation,Reading,Bookplate set
+40+,Female,Family,Graduation,Casual,Elegant watch
+40+,Female,Friend,Birthday,Sports,Fitness tracker
+40+,Female,Friend,Birthday,Music,Opera concert
+40+,Female,Friend,Birthday,Reading,A custom book embosser
+40+,Female,Friend,Birthday,Casual,Personalized tote bag
+40+,Female,Friend,Graduation,Sports,Running shoes
+40+,Female,Friend,Graduation,Music,Portable record player
+40+,Female,Friend,Graduation,Reading,Stylish book tote
+40+,Female,Friend,Graduation,Casual,Photo book of her college journey 
+40+,Female,Partner,Birthday,Sports,Yoga kit
+40+,Female,Partner,Birthday,Music,A custom music box 
+40+,Female,Partner,Birthday,Reading,Fitness subscription
+40+,Female,Partner,Birthday,Casual,Weekend getaway
+40+,Female,Partner,Graduation,Sports,Dancing class
+40+,Female,Partner,Graduation,Music,Written song
+40+,Female,Partner,Graduation,Reading,Bookcase organizer
+40+,Female,Partner,Graduation,Casual,Jewelry
+40+,Female,Partner,Anniversary,Sports,Couple's fitness retreat
+40+,Female,Partner,Anniversary,Music,Custom song written just for her
+40+,Female,Partner,Anniversary,Reading,Custom-written love story.
+40+,Female,Partner,Anniversary,Casual,A personalized star map of a significant date.
